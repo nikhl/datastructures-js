@@ -1,8 +1,6 @@
 var underJS = require('underscore');
 
 // Stack Datastructure implementation in Javascript
-function Stack() {
-}
 
 Stack = Array;
 Stack.prototype.__defineGetter__('top', function(){
